@@ -18,4 +18,3 @@ elif 5.0 <= media < 7.0:
     print(f'Com as notas {nota1} e {nota2} tens média de {media:.1f}! RECUPERAÇÃO!')
 else:
     print(f'Com as notas {nota1} e {nota2} tens média de {media:.1f}! APROVADO!')
-
