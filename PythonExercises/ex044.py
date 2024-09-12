@@ -5,9 +5,11 @@
 - Em até 2x no cartão: preço normal;
 - 3x ou mais no cartão: 20% de juros.
 '''
+print('{:=^40}'.format('LOJA DO PAULO'))
 # Leitura do preço do produto
 preco = float(input('Preço do produto: '))
 print('-=-' * 20)
+print('{:=^40}'.format('MÉTODO DE PAGAMENTO'))
 print('1- À vista dinheiro/cheque - 10% de desconto'
       '\n2- À vista no cartão - 5% de desconto'
       '\n3- Em até 2x no cartão - preço normal'
