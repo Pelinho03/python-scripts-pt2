@@ -9,7 +9,7 @@ cont_mulheres_menor_20 = 0
 
 # Loop para ler as informações de 4 pessoas
 for i in range(4):
-    print(f'\nPessoa {i + 1}:')
+    print(f'\n----- {i + 1}ª Pessoa -----')
     nome = input('Nome: ')
     idade = int(input('Idade: '))
     sexo = input('Sexo (M/F): ').strip().upper()

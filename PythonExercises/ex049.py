@@ -8,4 +8,3 @@ num = int(input('Escolhe um número: '))
 for i in range(1, 11):  # O passo 1 é implícito, então não é necessário especificá-lo
     # Exibe o resultado da multiplicação, com o valor de 'i' formatado para ocupar 2 espaços (para melhor alinhamento)
     print(f'{num} x {i:2} = {num * i}')
-

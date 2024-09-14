@@ -3,6 +3,7 @@
 '''
 # Inicializa a soma dos pares
 soma_pares = 0
+contador = 0
 
 # Laço 'for' para receber 6 números
 for i in range(1, 7):
@@ -12,8 +13,7 @@ for i in range(1, 7):
     # Verifica se o número é par e soma
     if num % 2 == 0:
         soma_pares += num
+        contador += 1
 
 # Imprime o resultado final apenas uma vez
-print(f'A soma dos números pares é {soma_pares}.')
-
-
+print(f'A soma dos números pares é {soma_pares} e o total destes é {contador}.')

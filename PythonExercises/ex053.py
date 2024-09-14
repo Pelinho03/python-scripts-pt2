@@ -2,8 +2,8 @@
 053. Criar um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços.
 '''
 # Lê uma frase do utilizador
-frase = input('Digite uma frase: ').replace(' ', '').lower()  # Remove espaços e transforma em minúsculas
-
+frase = str(input('Digite uma frase: ')).replace(' ', '').lower()  # Remove espaços e transforma em minúsculas
+print(f'Tu digitaste a frase {frase}')
 # Verifica se a frase é um palíndromo
 if frase == frase[::-1]:  # Compara a frase com a sua reversa
     print('A frase é um palíndromo!')
