@@ -11,7 +11,7 @@ soma = 0
 
 # Inicia o loop infinito, que será interrompido apenas com o 'break'
 while True:
-    num = int(input('Digita um número: '))
+    num = int(input('Digita um número (999 para parar): '))
 
     # Se o número for diferente de 999, incrementa o contador e soma
     if num != 999:
