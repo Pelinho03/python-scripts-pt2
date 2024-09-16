@@ -10,7 +10,7 @@ total_compras = 0
 maior_1000 = 0
 barato = None
 nome_prod_barato = ''
-escolha = 'S'
+
 while True:
     # Ler o nome e o preço do produto
     nome = str(input('Digita o nome do artigo: '))
@@ -29,12 +29,14 @@ while True:
         nome_prod_barato = nome
 
     # Perguntar se o utilizador quer continuar
-    escolha = str(input('Pretendes continuar? [S/N]: ')).strip().upper()[0]
+    escolha = ' '
+    while escolha not in 'SN':
+        escolha = str(input('Pretendes continuar? [S/N]: ')).strip().upper()[0]
 
     if escolha == 'N':
         break
-print('Programa finalizado.'
-      '\nA calcular resultados...')
+print('{:-^40}'.format('Programa finalizado.'))
+print('\nA calcular resultados...')
 sleep(1)
 print('3')
 sleep(1)

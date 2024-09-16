@@ -8,7 +8,7 @@ from time import sleep
 
 escolha = ''
 quant_18 = quant_homem = quant_mulher_20 = 0
-while escolha in 'Ss':
+while escolha in 'S':
     idade = int(input('Digita a idade: '))
     sexo = str(input('Digita o sexo [M/F]: ')).strip().upper()[0]
     if escolha in 'Ss':
@@ -18,6 +18,7 @@ while escolha in 'Ss':
             quant_homem += 1
         if sexo in 'Ff' and idade < 20:
             quant_mulher_20 += 1
+
         print('-=-' * 20)
         escolha = str(input('Pretendes continuar? [S/N] ')).strip().upper()[0]
         print('-=-' * 20)
